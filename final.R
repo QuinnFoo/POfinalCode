@@ -1,18 +1,14 @@
-library(portfolioBacktest)
 library(xts)
 library(zoo)
 library(PerformanceAnalytics)
 library(ggplot2)
 library(tidyquant)
 library(dplyr)
-library(timetk)
 library(tibble)
 library(rvest)
-library(corrplot)
-library(stringr)
 library(tidyr)
 library(forcats)
-#2017-12-29/2018-01-02
+
 
 stock=SP500$adjusted
 #data and log return of stocks and GSPC between 2016-2018
